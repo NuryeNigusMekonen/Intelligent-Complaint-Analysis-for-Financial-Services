@@ -24,7 +24,6 @@ def create_vector_store(
     print(" Loading cleaned complaint data...")
     df = pd.read_csv(input_path)
     print(f" Loaded {len(df):,} records. Starting chunking...")
-
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=chunk_size,
         chunk_overlap=chunk_overlap

@@ -38,8 +38,7 @@ project-root/
 └── requirements.txt              # Project dependencies
 
 ```
-```
----
+
 
 ## Setup and Installation
 

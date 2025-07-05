@@ -37,8 +37,7 @@ project-root/
 ├── README.md                     # This file — project overview & instructions
 └── requirements.txt              # Project dependencies
 
-```
-
+---
 
 ## Setup and Installation
 

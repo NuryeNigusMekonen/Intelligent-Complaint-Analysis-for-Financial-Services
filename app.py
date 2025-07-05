@@ -4,7 +4,7 @@ from src.rag_chat import stream_answer
 def chat_interface(user_question):
     for partial_answer, sources in stream_answer(user_question):
         sources_md = "\n\n".join([
-            f" {i+1}. {src['product']} — {src['chunk_text'][:300]}..." for i, src in enumerate(sources)
+            f" {i+1}. {src['product']} - {src['chunk_text'][:300]}..." for i, src in enumerate(sources)
         ])
         yield partial_answer, sources_md
 

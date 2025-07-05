@@ -200,5 +200,3 @@ LinkedIn: [linkedin.com/in/nryngs](https://linkedin.com/in/nryngs)
 
 *Thank you for reviewing this project. We welcome feedback and contributions to improve the CrediTrust Complaint Analysis platform.*
 
-```
-

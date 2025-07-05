@@ -1,7 +1,5 @@
 # Intelligent Complaint Analysis for Financial Services — CrediTrust
 
-
-
 ## Project Overview
 
 This project implements an AI-powered Retrieval-Augmented Generation (RAG) system to analyze, summarize, and answer questions about customer complaints related to financial products and services. The system combines advanced vector search with large language models (LLMs) to provide insightful, context-driven responses for business analysts and customer service teams.
@@ -48,16 +46,16 @@ project-root/
 1. **Clone the repository**
 
    ```bash
-   git clone <your-repo-url>
-   cd <project-root>
+   git clone https://github.com/NuryeNigusMekonen/Intelligent-Complaint-Analysis-for-Financial-Services.git
+   cd Intelligent-Complaint-Analysis-for-Financial-Services
 ````
 
 2. **Create and activate Python virtual environment**
 
    ```bash
-   python3 -m venv venv
-   source venv/bin/activate      # Linux/macOS
-   venv\Scripts\activate         # Windows
+   python3 -m venv CA-venv
+   source CA-venv/bin/activate      # Linux/macOS
+   CA-venv\Scripts\activate         # Windows
    ```
 
 3. **Install required packages**
@@ -176,4 +174,3 @@ LinkedIn: [linkedin.com/in/nryngs](https://linkedin.com/in/nryngs)
 
 ```
 
----

@@ -21,7 +21,6 @@ This project implements an AI-powered Retrieval-Augmented Generation (RAG) syste
 
 # Intelligent Complaint Analysis for Financial Services CrediTrust
 
----
 
 ##  Project Directory Structure
 

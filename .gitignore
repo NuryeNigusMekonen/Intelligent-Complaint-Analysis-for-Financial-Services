@@ -1,7 +1,7 @@
 CA-venv/
 data/
 *.csv
-*.pkl
-*.idx
 models/
 reports/
+*.pkl
+*.idx

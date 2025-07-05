@@ -1,3 +1,10 @@
+Absolutely! Here's a **clean, well-formatted, and ready-to-copy README.md** you can use — with proper blank lines around images and no markdown pitfalls that break image display on GitHub.
+
+Make sure your image folder is really named `screanshoot` (as you said), and the images are named exactly `UI-before-asking.png` and `UI-after-answering.png` inside that folder.
+
+---
+
+```markdown
 # Intelligent Complaint Analysis for Financial Services — CrediTrust
 
 ---
@@ -68,7 +75,7 @@ project-root/
 
 4. **Prepare data**
 
-   Place the cleaned complaint dataset CSV (`filtered_complaints.csv`) in the `data/` folder.
+Place the cleaned complaint dataset CSV (`filtered_complaints.csv`) in the `data/` folder.
 
 ---
 
@@ -154,6 +161,8 @@ python src/app.py
 
 ### Interactive Chat Interface
 
+Here are screenshots from the app interface:
+
 ![UI before asking](screanshoot/UI-before-asking.png "CrediTrust Chat Interface")
 
 ![UI after answering](screanshoot/UI-after-answering.png "CrediTrust Chat Interface")
@@ -175,4 +184,3 @@ LinkedIn: [linkedin.com/in/nryngs](https://linkedin.com/in/nryngs)
 ```
 
 ---
-

@@ -1,4 +1,4 @@
-# Intelligent Complaint Analysis for Financial Services — CrediTrust
+# Intelligent Complaint Analysis for Financial Services CrediTrust
 
 ## Project Overview
 
@@ -19,23 +19,53 @@ This project implements an AI-powered Retrieval-Augmented Generation (RAG) syste
 
 ```
 
-project-root/
+# Intelligent Complaint Analysis for Financial Services CrediTrust
+
+---
+
+##  Project Directory Structure
+
+Intelligent-Complaint-Analysis-for-Financial-Services/
 │
-├── data/                         # Raw and cleaned complaint datasets (CSV)
-├── vector\_store/                 # FAISS index and metadata pickle files
-├── outputs/                      # Generated evaluation reports (Markdown)
-├── src/                         # Source Python modules
-│   ├── embedding.py              # Text chunking & embedding logic
-│   ├── retriever.py              # Vector store loading and retrieval
-│   ├── evaluate\_rag.py           # RAG pipeline core & evaluation
-│   ├── evaluate\_and\_report.py    # Evaluation orchestration and report generation
-│   ├── rag\_chat.py               # Interactive chat backend logic
-│   ├── generator.py              # LLM prompt and generation utilities
-│   ├── prompt\_template.py        # Prompt engineering templates
-│   └── app.py                   # Gradio web app interface
+├── data/  
+│   ├── complaints.csv                 # Raw customer complaint narratives
+│   └── filtered_complaints.csv        # Cleaned and preprocessed complaints
 │
-├── README.md                     # This file — project overview & instructions
-└── requirements.txt              # Project dependencies
+├── vector_store/
+│   ├── faiss_index.idx                # FAISS vector index for fast retrieval
+│   └── metadata.pkl                   # Pickled metadata (chunk mappings, etc.)
+│
+├── outputs/
+│   └── evaluation_report.md           # Model evaluation and performance summary
+│
+├── Notebook/
+│   ├── embedding.ipynb                # Embedding & indexing notebook
+│   ├── loading_cleaning.ipynb         # EDA + cleaning logic
+│   ├── RAG.ipynb                      # RAG pipeline demonstration
+│   └── plots/
+│       ├── narrative_length_distribution.png
+│       └── product_distribution.png   # Visualizations from EDA
+│
+├── Screenshoot/
+│   ├── UI-before-asking.png
+│   └── UI-after-answering.png         # Gradio app screenshots
+│
+├── src/                               # Core Python source files
+│   ├── __init__.py
+│   ├── data_preprocessing.py          # Text cleaning and chunking
+│   ├── embedding.py                   # Embedding logic using SentenceTransformer
+│   ├── retriever.py                   # FAISS retriever logic
+│   ├── evaluate_rag.py                # RAG pipeline core logic
+│   ├── evaluate_and_report.py         # Evaluation and reporting utilities
+│   ├── rag_chat.py                    # Backend chat handling logic
+│   ├── generator.py                   # Answer generation using LLM
+│   └── prompt_template.py             # Prompt engineering and templates
+│
+├── app.py                             # Gradio-based web UI
+├── README.md                          # Project overview and setup instructions
+├── requirements.txt                   # Python dependencies
+└── LICENSE                            # License file
+
 ```
 
 ## Setup and Installation

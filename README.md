@@ -38,7 +38,7 @@ project-root/
 └── requirements.txt              # Project dependencies
 
 ---
----
+
 
 ## Setup and Installation
 
@@ -47,7 +47,7 @@ project-root/
    ```bash
    git clone https://github.com/NuryeNigusMekonen/Intelligent-Complaint-Analysis-for-Financial-Services.git
    cd Intelligent-Complaint-Analysis-for-Financial-Services
-````
+   ```
 
 2. **Create and activate Python virtual environment**
 

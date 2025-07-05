@@ -10,9 +10,9 @@ This project implements an AI-powered Retrieval-Augmented Generation (RAG) syste
 
 ## Business Value
 
-- **Improved Customer Insights:** Quickly extract themes and common issues from thousands of customer complaints.
-- **Efficient Querying:** Non-technical stakeholders can ask natural language questions and get detailed, evidence-backed answers.
-- **Trust and Transparency:** The system shows exact source complaint excerpts used for generating answers, ensuring accountability.
+- **Improved Customer Insights:** Quickly extract themes and common issues from thousands of customer complaints.  
+- **Efficient Querying:** Non-technical stakeholders can ask natural language questions and get detailed, evidence-backed answers.  
+- **Trust and Transparency:** The system shows exact source complaint excerpts used for generating answers, ensuring accountability.  
 - **Faster Decision-Making:** Enables proactive problem-solving by surfacing critical complaints and trends with minimal manual effort.
 
 ---
@@ -24,7 +24,7 @@ This project implements an AI-powered Retrieval-Augmented Generation (RAG) syste
 project-root/
 │
 ├── data/                         # Raw and cleaned complaint datasets (CSV)
-├── vector_store/                 # FAISS index and metadata pickle files
+├── vector\_store/                 # FAISS index and metadata pickle files
 ├── outputs/                      # Generated evaluation reports (Markdown)
 ├── src/                         # Source Python modules
 │   ├── embedding.py              # Text chunking & embedding logic
@@ -92,8 +92,6 @@ index, metadata = create_vector_store(
 )
 ```
 
----
-
 ### 2. Evaluate RAG Pipeline and Generate Report
 
 Run evaluation on a set of sample questions, generate answers with relevant complaint excerpts, and save a comprehensive Markdown report:
@@ -118,8 +116,6 @@ df_results = evaluate_and_generate_report_auto(
 
 print(df_results.head())
 ```
-
----
 
 ### 3. Launch Interactive Chat Interface
 
@@ -152,16 +148,17 @@ python src/app.py
 * **Multilingual Support:** Extend to analyze complaints in additional languages.
 * **Advanced Analytics:** Integrate sentiment trend analysis and predictive modeling for complaint escalation.
 
+---
 
 ## Screenshots
 
 ### Interactive Chat Interface
 
-![UI-before asking](screanshoot/UI-before-asking.png "CrediTrust Chat Interface")
+![UI before asking](screanshoot/UI-before-asking.png "CrediTrust Chat Interface")
+
+![UI after answering](screanshoot/UI-after-answering.png "CrediTrust Chat Interface")
 
 ---
-
-![UI-after asking](screanshoot/UI-after-answring.png "CrediTrust Chat Interface")
 
 ## Contact
 
@@ -169,7 +166,7 @@ For questions or collaboration opportunities, please contact:
 
 **Nurye Nigus**
 Email: [nurye.nigus.me@gmail.com](mailto:nurye.nigus.me@gmail.com)
-LinkedIn: linkedin.com/in/nryngs
+LinkedIn: [linkedin.com/in/nryngs](https://linkedin.com/in/nryngs)
 
 ---
 
@@ -178,3 +175,4 @@ LinkedIn: linkedin.com/in/nryngs
 ```
 
 ---
+

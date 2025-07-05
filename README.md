@@ -1,13 +1,12 @@
-```markdown
 # Intelligent Complaint Analysis for Financial Services — CrediTrust
 
----
+
 
 ## Project Overview
 
 This project implements an AI-powered Retrieval-Augmented Generation (RAG) system to analyze, summarize, and answer questions about customer complaints related to financial products and services. The system combines advanced vector search with large language models (LLMs) to provide insightful, context-driven responses for business analysts and customer service teams.
 
----
+
 
 ## Business Value
 
@@ -16,7 +15,7 @@ This project implements an AI-powered Retrieval-Augmented Generation (RAG) syste
 - **Trust and Transparency:** The system shows exact source complaint excerpts used for generating answers, ensuring accountability.  
 - **Faster Decision-Making:** Enables proactive problem-solving by surfacing critical complaints and trends with minimal manual effort.
 
----
+
 
 ## Project Structure
 
@@ -40,7 +39,7 @@ project-root/
 ├── README.md                     # This file — project overview & instructions
 └── requirements.txt              # Project dependencies
 
-````
+```
 
 ---
 

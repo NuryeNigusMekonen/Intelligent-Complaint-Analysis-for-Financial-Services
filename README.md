@@ -38,6 +38,7 @@ project-root/
 └── requirements.txt              # Project dependencies
 
 ---
+---
 
 ## Setup and Installation
 
@@ -63,9 +64,10 @@ project-root/
    ```
 
 4. **Prepare data**
-
+ 
+ ```bash
 Place the cleaned complaint dataset CSV (`filtered_complaints.csv`) in the `data/` folder.
-
+```
 ---
 
 ## Usage

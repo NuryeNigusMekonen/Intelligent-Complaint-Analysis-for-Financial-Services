@@ -1,9 +1,3 @@
-Absolutely! Here's a **clean, well-formatted, and ready-to-copy README.md** you can use — with proper blank lines around images and no markdown pitfalls that break image display on GitHub.
-
-Make sure your image folder is really named `screanshoot` (as you said), and the images are named exactly `UI-before-asking.png` and `UI-after-answering.png` inside that folder.
-
----
-
 ```markdown
 # Intelligent Complaint Analysis for Financial Services — CrediTrust
 

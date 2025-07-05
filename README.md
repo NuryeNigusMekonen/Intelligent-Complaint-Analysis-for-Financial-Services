@@ -17,7 +17,7 @@ This project implements an AI-powered Retrieval-Augmented Generation (RAG) syste
 
 ## Project Structure
 
-
+```
 
 project-root/
 │
@@ -36,7 +36,7 @@ project-root/
 │
 ├── README.md                     # This file — project overview & instructions
 └── requirements.txt              # Project dependencies
-
+```
 
 ## Setup and Installation
 

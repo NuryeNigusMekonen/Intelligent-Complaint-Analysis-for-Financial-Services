@@ -180,7 +180,8 @@ python src/app.py
 ### Interactive Chat Interface
 
 Here are screenshots from the app interface:
-
+t-sne-vesual.png
+![t-sne-visual](screanshoot/t-sne-vesual.png "2d visual")
 ![UI before asking](screanshoot/UI-before-asking.png "CrediTrust Chat Interface")
 
 ![UI after answering](screanshoot/UI-after-answering.png "CrediTrust Chat Interface")

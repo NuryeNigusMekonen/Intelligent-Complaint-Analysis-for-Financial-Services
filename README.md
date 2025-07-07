@@ -183,7 +183,6 @@ Here are screenshots from the app interface:
 t-sne-vesual.png
 ![t-sne-visual](screanshoot/t-sne-vesual.png "2d visual")
 ![UI before asking](screanshoot/UI-before-asking.png "CrediTrust Chat Interface")
-
 ![UI after answering](screanshoot/UI-after-answering.png "CrediTrust Chat Interface")
 
 ---
@@ -191,8 +190,8 @@ t-sne-vesual.png
 ## Contact
 
 For questions or collaboration opportunities, please contact:
-
 **Nurye Nigus**
+
 Email: [nurye.nigus.me@gmail.com](mailto:nurye.nigus.me@gmail.com)
 LinkedIn: [linkedin.com/in/nryngs](https://linkedin.com/in/nryngs)
 

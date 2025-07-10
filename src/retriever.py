@@ -16,3 +16,4 @@ def retrieve_top_k(query, index, metadata, embedding_model, k=5):
     for idx in I[0]:
         results.append(metadata[idx])
     return results
+

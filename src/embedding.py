@@ -57,7 +57,7 @@ def create_vector_store(
     total_chunks = len(all_chunks)
     total_slices = (total_chunks // slice_size) + 1
 
-    for slice_idx in tqdm(range(total_slices), desc="🔄 Encoding slices"):
+    for slice_idx in tqdm(range(total_slices), desc=" Encoding slices"):
         start = slice_idx * slice_size
         end = min((slice_idx + 1) * slice_size, total_chunks)
         chunk_slice = all_chunks[start:end]
